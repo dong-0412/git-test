@@ -31,4 +31,6 @@ git remote -v
 git push [工作区名] master
 向云端推送项目
 
+git pull [工作区名] master
+向本地拉去云端项目
 
