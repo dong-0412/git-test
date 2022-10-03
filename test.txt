@@ -1,3 +1,34 @@
-test
-test
-test
+git init 
+初始化本地库，可以在想要管理的文件夹里右键git bash here
+然后在黑窗口中用上述命令让git 获取文件夹管理权限
+
+git status
+查看状态
+
+git add[文件名]
+添加暂存区
+
+git rm --cached [文件名]
+把暂存区中的文件删掉，不影响工作区
+
+git commit -m "版本信息，可以改" [文件名]
+如： git commit -m "first commit" 123.txt
+
+git reflog
+git log
+查看简略和详细的日志信息
+
+git reset --hard 123456
+版本穿梭，最后六位是版本号可以git reflog看到
+
+git remote add [别名] [远程库链接]
+为远程库创建别名
+如： git remote add git-loc https://github.com/dong-0412/git-loc.git
+
+git remote -v 
+查看当前有哪些别名
+
+git push [工作区名] master
+向云端推送项目
+
+
